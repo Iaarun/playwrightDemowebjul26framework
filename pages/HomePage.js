@@ -28,4 +28,4 @@ class HomePage {
     }
 }
 
-module.exports={HomePage}
+module.exports = {HomePage}

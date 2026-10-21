@@ -3,12 +3,12 @@ class RegisterPage{
         this.page = page
         this.genderMale = page.locator("#gender-male")
         this.genderFemale = page.locator("#gender-female")
-        this.firstName
-        this.lastName
-        this.email
-        this.password
-        this.confirmPassword
-        this.registerButton
+        this.firstName  = page.locator("#FirstName")
+        this.lastName = page.locator("#LastName")
+        this.email = page.locator("#Email")
+        this.password = page.locator("#Password")
+        this.confirmPassword = page.locator("#ConfirmPassword")
+        this.registerButton = page.locator("#register-button")
     }
 
     async selectGender(gender){
