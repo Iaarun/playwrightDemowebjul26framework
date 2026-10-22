@@ -2,6 +2,47 @@
 
 This project uses Playwright Test to run UI tests against the demo shop. Test cases are in `tests/`, page objects are in `pages/`, and registration inputs are in `testdata/registrationData.json`.
 
+## GitHub repository
+
+- Repository: [Iaarun/playwrightDemowebjul26framework](https://github.com/Iaarun/playwrightDemowebjul26framework)
+- Default branch: `master`
+- Remote name: `origin`
+
+### Clone the repository
+
+Run these commands in PowerShell from the directory where you want the project folder created:
+
+```powershell
+git clone https://github.com/Iaarun/playwrightDemowebjul26framework.git
+cd playwrightDemowebjul26framework
+npm install
+```
+
+### Pull the latest changes
+
+From the project directory, update your local `master` branch:
+
+```powershell
+git switch master
+git pull --rebase origin master
+```
+
+If you have uncommitted changes, commit or stash them before pulling.
+
+### Push your changes
+
+Create a working branch, make and test your changes, then commit and push it:
+
+```powershell
+git switch -c my-change
+git status
+git add .
+git commit -m "Describe your change"
+git push -u origin my-change
+```
+
+Replace `my-change` with a short branch name and use a commit message describing your changes. After the first push, open a pull request on GitHub to merge your branch into `master`. GitHub authentication must be configured for push access.
+
 ## Install and run
 
 From the project directory:
