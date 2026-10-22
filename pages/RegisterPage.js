@@ -9,6 +9,7 @@ class RegisterPage{
         this.password = page.locator("#Password")
         this.confirmPassword = page.locator("#ConfirmPassword")
         this.registerButton = page.locator("#register-button")
+        this.registerMessage= page.locator(".registration-result-page .result")
     }
 
     async selectGender(gender){

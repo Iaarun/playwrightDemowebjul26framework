@@ -1,14 +1,13 @@
 [
-    {
-    "testCaseId":"TC_REG_001",
+  {
+    "testCaseId": "TC_REG_001",
     "title": "Verify successful user registration with valid mandatory and optional details",
     "gender": "Male",
-    "firstName":"Alex",
-    "lastName":"Harvey",
+    "firstName": "Alex",
+    "lastName": "Harvey",
     "email": "alex_harvey01@example.com",
-    "password":"Test@321",
-    "confirmPasssword":"Test@321",
-    "expectedMessage":"Your registration is success"
-
-}
+    "password": "Test@321",
+    "confirmPasssword": "Test@321",
+    "expectedMessage": "Your registration completed"
+  }
 ]

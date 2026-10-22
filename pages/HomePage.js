@@ -5,6 +5,7 @@ class HomePage {
         this.loginLink = page.locator("a.ico-login")
         this.searchBox=page.locator("#small-searchterms")
         this.searchButton = page.locator("input.search-box-button")
+        this.accountLink= page.locator(".header-links a.account")
     }
 
     async open(){
